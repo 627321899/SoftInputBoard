@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidingLayer1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/soft_input_content"
+        android:layout_width="fill_parent"
+        android:background="#2AC0C1"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:gravity="center"
+            android:text="Nipuream安全键盘"
+            android:textColor="#fff"
+            android:textSize="17.0sp" />
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5.0dip"
+            android:background="@mipmap/btn_close" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0EFEF"
+        android:shrinkColumns="1"
+        android:stretchColumns="*"
+        android:padding="3dip"
+        >
+
+        <TableRow
+        >
+        <TextView
+            android:id="@+id/tv1"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:textColor="#303030"
+            android:background="@drawable/select_input_gridview_item_selector"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:text="2"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:textColor="#303030"
+            android:background="@drawable/select_input_gridview_item_selector"
+            />
+        <TextView
+            android:id="@+id/tv3"
+            android:text="3"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:textColor="#303030"
+            android:background="@drawable/select_input_gridview_item_selector"
+            />
+    </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            >
+            <TextView
+                android:id="@+id/tv4"
+                android:text="4"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:textColor="#303030"
+                android:background="@drawable/select_input_gridview_item_selector"
+                />
+            <TextView
+                android:id="@+id/tv5"
+                android:text="5"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:textColor="#303030"
+                android:background="@drawable/select_input_gridview_item_selector"
+                />
+            <TextView
+                android:id="@+id/tv6"
+                android:text="6"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:textColor="#303030"
+                android:background="@drawable/select_input_gridview_item_selector"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            >
+            <TextView
+                android:id="@+id/tv7"
+                android:text="7"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:textColor="#303030"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/select_input_gridview_item_selector"
+                />
+            <TextView
+                android:id="@+id/tv8"
+                android:text="8"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:textColor="#303030"
+                android:background="@drawable/select_input_gridview_item_selector"
+                />
+            <TextView
+                android:id="@+id/tv9"
+                android:text="9"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:textColor="#303030"
+                android:background="@drawable/select_input_gridview_item_selector"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="1dp"
+            >
+            <TextView
+                android:id="@+id/tvx"
+                android:text="X"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/select_input_gridview_item_selector"
+                android:textColor="#303030"
+                />
+            <TextView
+                android:id="@+id/tv0"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:textColor="#303030"
+                android:background="@drawable/select_input_gridview_item_selector"
+                />
+
+            <RelativeLayout
+                android:id="@+id/iv_delete"
+                android:layout_height="50dp"
+                android:background="@drawable/select_input_gridview_item_selector"
+                >
+                <ImageView
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="1dp"
+                    android:src="@mipmap/wallet_base_safekeyboard_delete_icon"
+                    />
+            </RelativeLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="30dip" >-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_login_qq"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10.0dip"-->
+            <!--android:layout_marginRight="10.0dip"-->
+            <!--android:background="@drawable/btn_bule"-->
+            <!--android:clickable="true"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="5.0dip" >-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="30.0dip"-->
+                <!--android:background="@drawable/zfb_pay" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="1.0dip"-->
+                <!--android:layout_height="19.0dip"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="20.0dip"-->
+                <!--android:alpha="20.0"-->
+                <!--android:background="#50ffffff" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="15.0dip"-->
+                <!--android:text="用支付宝支付"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="17.0sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_login_sina"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10.0dip"-->
+            <!--android:layout_marginRight="10.0dip"-->
+            <!--android:layout_marginTop="15.0dip"-->
+            <!--android:background="@drawable/btn_red"-->
+            <!--android:clickable="true"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="5.0dip" >-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="30.0dip"-->
+                <!--android:background="@drawable/wx_pay" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="1.0dip"-->
+                <!--android:layout_height="19.0dip"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="20.0dip"-->
+                <!--android:background="#60ffffff" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="15.0dip"-->
+                <!--android:text="用微信支付"-->
+                <!--android:textColor="#ffffffff"-->
+                <!--android:textSize="17.0sp" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

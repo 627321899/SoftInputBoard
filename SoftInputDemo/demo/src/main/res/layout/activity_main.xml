@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/autoInputBoardLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.hr.nipurem.softinput.AutoPopLayout
+        android:id="@+id/autoPopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <EditText
+            android:id="@+id/auto_et1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            />
+
+        <EditText
+            android:id="@+id/auto_et2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/auto_et1"
+            />
+
+
+        <com.hr.nipurem.softinput.PasswordInputView
+            android:id="@+id/auto_et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/auto_et2"
+            android:layout_marginTop="20dp"
+            app:pivPasswordLength="6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/show_pwd"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示密码"
+            />
+
+
+
+    </com.hr.nipurem.softinput.AutoPopLayout>
+
+</RelativeLayout>
